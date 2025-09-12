@@ -77,8 +77,8 @@ export declare const ContentModel: mongoose.Model<{
         createFromBase64?: any;
         isValid?: any;
     }>;
+    link?: unknown;
     title?: unknown;
-    Link?: unknown;
 }, {}, {}, {}, mongoose.Document<unknown, {}, {
     tags: mongoose.Types.DocumentArray<{
         prototype?: unknown;
@@ -130,8 +130,8 @@ export declare const ContentModel: mongoose.Model<{
         createFromBase64?: any;
         isValid?: any;
     }>;
+    link?: unknown;
     title?: unknown;
-    Link?: unknown;
 }, {}, mongoose.DefaultSchemaOptions> & {
     tags: mongoose.Types.DocumentArray<{
         prototype?: unknown;
@@ -183,8 +183,8 @@ export declare const ContentModel: mongoose.Model<{
         createFromBase64?: any;
         isValid?: any;
     }>;
+    link?: unknown;
     title?: unknown;
-    Link?: unknown;
 } & {
     _id: mongoose.Types.ObjectId;
 } & {
@@ -208,8 +208,8 @@ export declare const ContentModel: mongoose.Model<{
         createFromBase64?: {} | null;
         isValid?: {} | null;
     }[];
+    link?: string | null;
     title?: string | null;
-    Link?: string | null;
 }, mongoose.Document<unknown, {}, mongoose.FlatRecord<{
     tags: {
         prototype?: mongoose.Types.ObjectId | null;
@@ -229,8 +229,8 @@ export declare const ContentModel: mongoose.Model<{
         createFromBase64?: {} | null;
         isValid?: {} | null;
     }[];
+    link?: string | null;
     title?: string | null;
-    Link?: string | null;
 }>, {}, mongoose.ResolveSchemaOptions<mongoose.DefaultSchemaOptions>> & mongoose.FlatRecord<{
     tags: {
         prototype?: mongoose.Types.ObjectId | null;
@@ -250,8 +250,8 @@ export declare const ContentModel: mongoose.Model<{
         createFromBase64?: {} | null;
         isValid?: {} | null;
     }[];
+    link?: string | null;
     title?: string | null;
-    Link?: string | null;
 }> & {
     _id: mongoose.Types.ObjectId;
 } & {
